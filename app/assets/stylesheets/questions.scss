@@ -1,0 +1,49 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h2 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid grey;
+  border-radius: 10px 0 0 10px;
+}
+#submit {
+  width: 10%;
+  padding: 12px 20px;
+  background-color: blue;
+  margin: 8px -4px;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 0 10px 10px 0;
+}
+
+#you {
+  border-left: 5px solid grey;
+  padding: 10px 20px;
+  width: 60%;
+}
+
+#coach{
+  border-left: 5px solid grey;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: rgba(251, 210, 27, 0.2);
+  width: 60%;
+  #answer {
+    font-weight: bold;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+    color: blue;
+  }
+}
